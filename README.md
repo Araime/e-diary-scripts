@@ -19,7 +19,7 @@
 python manage.py shell
 ```
 
-Консоль запущена:
+Консоль запущена:  
 <a href="https://ibb.co/3dkvHgd"><img src="https://i.ibb.co/fFQ97jF/2-u-Tvan-Tx.png" alt="2-u-Tvan-Tx" border="0"></a>
 
 ### Описание скриптов
