@@ -63,8 +63,9 @@ create_commendation(schoolkid, "Музыка")
 ```
 Добавляем похвалу по краеведению с конкретной датой:
 ```
-create_commendation(schoolkid, "Краеведение", date='19-01-04')
+create_commendation(schoolkid, "Краеведение", date="19-01-04")
 ```
 ### Цели проекта
 
-Код написан в учебных целях — это урок в курсе по Python и веб-разработке на сайте [Devman](https://dvmn.org).
+Код написан в учебных целях — это урок в курсе по Python и веб-разработке на 
+сайте [Devman](https://dvmn.org).
