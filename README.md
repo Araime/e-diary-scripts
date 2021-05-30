@@ -16,7 +16,7 @@
   1. Перейдите в корневой каталог проекта сайта
   1. Активируйте виртуальное окружение
   1. Выполните команду:
-```
+```python
 python manage.py shell
 ```
 
@@ -39,30 +39,30 @@ python manage.py shell
 ### Использование скриптов
 
 Для начало импортируем все скрипты одной командой:
-```
+```python
 from scripts import get_schoolkid, fix_marks, remove_chastisements, create_commendation
 ```
 Создаём объект `schoolkid`:
-```
+```python
 schoolkid = get_schoolkid("Фролов Иван")
 ```
 Если программа ругается на то, что найдено несколько одинаковых учеников, можно 
 ввести ещё и отчество (например Фролов Иван Григорьевич).
 
 Исправляем двойки и тройки на пятёрки:
-```
+```python
 fix_marks(schoolkid)
 ```
 Удаляем замечания учителей:
-```
+```python
 remove_chastisements(schoolkid)
 ```
 Добавляем похвалу по музыке со случайной датой:
-```
+```python
 create_commendation(schoolkid, "Музыка")
 ```
 Добавляем похвалу по краеведению с конкретной датой:
-```
+```python
 create_commendation(schoolkid, "Краеведение", date="19-01-04")
 ```
 ### Цели проекта
